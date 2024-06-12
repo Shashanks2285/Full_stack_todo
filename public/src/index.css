@@ -1,0 +1,119 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main_div{
+  background-color: rgb(93, 182, 255);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.center_div{
+  padding-top: 4%;
+  background-color: azure;
+  height: 75vh;
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  row-gap: 13px;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 22px black;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(86, 138, 251) ;
+  font-weight: 500;
+  overflow:auto;
+}
+
+h1{
+  /* border: 2px solid black; */
+  background-color: rgb(86, 138, 251);
+  width: 100%;
+  text-align: center;
+  color: aliceblue;
+  padding-block: 5px;
+}
+
+.input_item{
+  /* border: 2px solid black; */
+  display: flex;
+  column-gap: 25px;
+  height: 5%;
+  height: 57px;
+  justify-content:space-evenly;
+  margin-bottom: 8px;
+}
+
+button{
+  width: 55.6px;
+  height: 55.6px;
+  border-radius: 27.8px;
+  justify-content: center;
+  border: none;
+  background-color: rgb(86, 138, 251);
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+button:hover{
+  background-color: green;
+  cursor: pointer;
+  text-shadow: 2px 2px 2px rgb(1, 1, 170);
+}
+input{
+  border: none;
+  width: 60%;
+  text-align: center;
+  background-color: azure;
+  border-bottom:2px solid rgb(97, 97, 209);
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: Verdana, sans-serif;
+}
+
+ol{
+  padding: 10px;
+  list-style: none;
+  text-align: left;
+  /* border: 2px solid black; */
+  width: 100%;
+}
+
+.todo_style{
+  padding: 6px;
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+i{
+  
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(86, 138, 251);
+  color: aliceblue;
+  font-style: normal;
+  padding-bottom: 4px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-size: larger;
+  cursor: pointer;
+  font-weight: 900;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+i:hover{
+  background-color: rgb(255, 43, 43);
+  text-shadow: 2px 2px 2px rgb(1, 1, 170);
+}
